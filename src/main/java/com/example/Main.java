@@ -1,6 +1,6 @@
 package com.example;
 public class Main {
-    public static int countWords(String str) {
+    public static int word(String str) {
         if (str == null || str.trim().isEmpty()) {
             return 0;
         }
@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         String text = "  Java   makes   string processing easy\n";
-        System.out.println("Word count: " + countWords(text)); // Output: 5
+
+        System.out.println("Word count: " + word(text)); // Output: 5
     }
 }
